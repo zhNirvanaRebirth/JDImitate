@@ -1,0 +1,40 @@
+#navigation-back {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px #dddddd solid;
+    background: #e3e4e5;
+    font-family: verdana\,simsun;
+}
+#navigation-content {
+    width: 1190px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#navigation-back li {
+    float: left;
+    line-height: 30px;
+    text-align: center;
+}
+
+#navigation-content-right li a {
+    padding: 0px 12px;
+    border-right: 1px #ccc solid;
+}
+
+#navigation-content-right li a.Navigation-jd-phone {
+    border-right: none;
+}
+
+#navigation-content-right li a.Navigation-register {
+    color: #f10215;
+}
+
+#navigation-content-right li a.Navigation-register:hover {
+    color: #b71320;
+}
+
+#navigation-back #navigation-content-logo {
+    background: #ffffff;
+    box-shadow:0 -12px 10px rgba(0,0,0,.2)
+}
